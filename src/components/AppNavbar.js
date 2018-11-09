@@ -32,7 +32,7 @@ class AppNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="danger" className="fixed-top" dark expand="md">
+        <Navbar color="danger" dark expand="md">
           <Container>
             <NavbarBrand href="/">
               <img src={LogoIcon} className="NavbarLogo mr-2" />
