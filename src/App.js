@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import Practice3 from "./components/Practice3";
+import AppNavbar from "./components/AppNavbar";
+import Search from "./components/Search";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Practice3 />
+        <AppNavbar />
+        <Search />
       </div>
     );
   }
